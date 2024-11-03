@@ -21,18 +21,7 @@ markup:
       strikethrough: true
       table: true
       taskList: true
-      typographer:
-        apostrophe: '&rsquo;'
-        disable: false
-        ellipsis: '&hellip;'
-        emDash: '&mdash;'
-        enDash: '&ndash;'
-        leftAngleQuote: '&laquo;'
-        leftDoubleQuote: '&ldquo;'
-        leftSingleQuote: '&lsquo;'
-        rightAngleQuote: '&raquo;'
-        rightDoubleQuote: '&rdquo;'
-        rightSingleQuote: '&rsquo;'
+      typographer: true
     parser:
       attribute:
         block: false
