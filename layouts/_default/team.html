@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main class="bg-gray-200 dark:bg-gray-900">
+    <div class="max-w-screen-xl px-4 py-8 mx-auto">
+        <h1 class="mb-8 text-4xl font-extrabold text-center text-gray-900 md:text-5xl xl:text-6xl dark:text-white">
+            Our Team
+        </h1>
+        <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {{ range .Site.Params.TeamMembers }}
+            <div class="team-card flex flex-col items-center p-4 bg-white rounded-lg shadow dark:bg-gray-800 h-full">
+                <img class="team-image mb-4 rounded-full" src="{{ .photo }}" alt="{{ .name }}">
+                <h2 class="text-xl font-semibold text-gray-900 dark:text-white">{{ .name }}</h2>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</main>
+{{ end }}

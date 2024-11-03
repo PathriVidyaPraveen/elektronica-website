@@ -1,0 +1,184 @@
+baseURL: ''
+title: Elektronica - The Electronics and Signal Processing Club of IIT Hyderabad
+languageCode: en-us
+DefaultContentLanguage: en
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+paginate: 9
+darkmode_js:
+  - assets/js/darkmode.js
+enableInlineShortcodes: true
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer:
+        apostrophe: '&rsquo;'
+        disable: false
+        ellipsis: '&hellip;'
+        emDash: '&mdash;'
+        enDash: '&ndash;'
+        leftAngleQuote: '&laquo;'
+        leftDoubleQuote: '&ldquo;'
+        leftSingleQuote: '&lsquo;'
+        rightAngleQuote: '&raquo;'
+        rightDoubleQuote: '&rdquo;'
+        rightSingleQuote: '&rsquo;'
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+      wrapStandAloneImageWithinParagraph: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+params:
+  author: Pranjal Prajapati
+  moto: "The platform for students to dream innovative practical projects and achieve them."
+  description: "The Electronics and Signals club of IIT Hyderabad is a student organization that aims to increase student interest in electronics. The Club was founded in 2009, and it has come a long way since then."
+  disable_theme_toggle: false
+
+  p1:
+    heading: "Our mission"
+    image: "images/pages/our-mission.png"
+    content:
+      - text: "Our vision is to provide a safe and enjoyable environment for students to pursue their interests in electronics."
+      - text: "We encourage students to compete in various competitions."
+
+  p4:
+    heading: "Explore Electronics and Signal Processing"
+    content:
+      - text: "Find the most insightful blogs on various topics here."
+
+  social_media:
+    github:
+      enabled: true
+      url: 'https://github.com/elektronicaIITH'
+    instagram:
+      enabled: true
+      url: 'https://www.instagram.com/elektronica_iith'
+
+  TeamMembers:
+  - name: "Dhanush V Nayak"
+    photo: "/images/team/Dhanush.jpg"
+  - name: "Prajwal M"
+    photo: "/images/team/Prajwal.jpg"
+  - name: "Ashley Ann Benoy"
+    photo: "/images/team/Ashley.jpg"
+  - name: "Ameen Aazam"
+    photo: "/images/team/Ameen.jpg"
+  - name: "Aroshish Pradhan"
+    photo: "/images/team/Aroshish.jpg"
+  - name: "K Rahul"
+    photo: "/images/team/Rahul.jpg"
+  - name: "Venkatesh Bandawar"
+    photo: "/images/team/Venkatesh.jpg"
+  - name: "Annapureddy Siva Meenakshi"
+    photo: "/images/team/Meenakshi.jpg"
+  - name: "Chirag Garg"
+    photo: "/images/team/Chirag.jpg"
+  - name: "Taha Mohiuddin"
+    photo: "/images/team/Taha.jpeg"
+  - name: "Manohar K"
+    photo: "/images/team/Manohar.jpg"
+  - name: "Sai Preetam Umesh Sasankota"
+    photo: "/images/team/Preetam.jpg"
+  - name: "Adarsh A"
+    photo: "/images/team/Adarsh.jpeg"
+  - name: "Sindam Ananya"
+    photo: "/images/team/Ananya.jpg"
+  - name: "Manugunta Meghana Sai"
+    photo: "/images/team/Meghana.jpg"
+  - name: "Vedamsh Lingala"
+    photo: "/images/team/Vedamsh.jpg"
+  - name: "Aman Kumar"
+    photo: "/images/team/Aman.jpg"
+  - name: "Sri Krishna Prabhas Y"
+    photo: "/images/team/Prabhas.jpg"
+  - name: "Ambati Krishna Kaustubh"
+    photo: "/images/team/Kaustubh.jpg"
+  - name: "Rajeev Kumar"
+    photo: "/images/team/Rajeev.jpg"
+  - name: "Manoj Kumar Ambatipudi"
+    photo: "/images/team/Manoj.jpg"
+  - name: "Shivansh Kirar"
+    photo: "/images/team/Shivansh.jpg"
+    
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: team
+      name: Team
+      url: /team/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+  footer:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: team
+      name: Team
+      url: /team/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: Categories
+  tag: Tags
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: true
+    disable: false
+    respectDoNotTrack: false
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: false
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false
+  youtube:
+    disable: false
+    privacyEnhanced: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.114.0"
