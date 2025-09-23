@@ -1,6 +1,7 @@
 ---
-title: Contact
+title: "Contact Us @ elektronica@gymkhana.iith.ac.in"
 type: "page"
-draft: false
+draft: true
 language: en
 ---
+

@@ -42,10 +42,10 @@ params:
 
   p1:
     heading: "Our mission"
-    image: "images/pages/our-mission.png"
+    image: "images/pages/our-mission.jpg"
     content:
-      - text: "Our vision is to provide a safe and enjoyable environment for students to pursue their interests in electronics."
-      - text: "We encourage students to compete in various competitions."
+      - text: "Philosophy: \"Learning by doing\" — Whether you're building, debugging, designing, or researching, there's a place for you here."
+      - text: " "
 
   p4:
     heading: "Explore Electronics and Signal Processing"
@@ -55,56 +55,59 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/elektronicaIITH'
+      url: 'https://github.com/orgs/Elektronica-IITH/repositories'
     instagram:
       enabled: true
       url: 'https://www.instagram.com/elektronica_iith'
+    twitter:
+      enabled: true
+      url: 'https://x.com/xElektronica'
 
   TeamMembers:
-  - name: "Dhanush V Nayak"
-    photo: "/images/team/Dhanush.jpg"
-  - name: "Prajwal M"
-    photo: "/images/team/Prajwal.jpg"
-  - name: "Ashley Ann Benoy"
-    photo: "/images/team/Ashley.jpg"
-  - name: "Ameen Aazam"
-    photo: "/images/team/Ameen.jpg"
-  - name: "Aroshish Pradhan"
-    photo: "/images/team/Aroshish.jpg"
-  - name: "K Rahul"
-    photo: "/images/team/Rahul.jpg"
-  - name: "Venkatesh Bandawar"
-    photo: "/images/team/Venkatesh.jpg"
-  - name: "Annapureddy Siva Meenakshi"
-    photo: "/images/team/Meenakshi.jpg"
-  - name: "Chirag Garg"
-    photo: "/images/team/Chirag.jpg"
-  - name: "Taha Mohiuddin"
-    photo: "/images/team/Taha.jpeg"
-  - name: "Manohar K"
-    photo: "/images/team/Manohar.jpg"
-  - name: "Sai Preetam Umesh Sasankota"
-    photo: "/images/team/Preetam.jpg"
-  - name: "Adarsh A"
-    photo: "/images/team/Adarsh.jpeg"
-  - name: "Sindam Ananya"
-    photo: "/images/team/Ananya.jpg"
-  - name: "Manugunta Meghana Sai"
-    photo: "/images/team/Meghana.jpg"
-  - name: "Vedamsh Lingala"
-    photo: "/images/team/Vedamsh.jpg"
-  - name: "Aman Kumar"
-    photo: "/images/team/Aman.jpg"
-  - name: "Sri Krishna Prabhas Y"
-    photo: "/images/team/Prabhas.jpg"
-  - name: "Ambati Krishna Kaustubh"
-    photo: "/images/team/Kaustubh.jpg"
-  - name: "Rajeev Kumar"
-    photo: "/images/team/Rajeev.jpg"
-  - name: "Manoj Kumar Ambatipudi"
-    photo: "/images/team/Manoj.jpg"
-  - name: "Shivansh Kirar"
-    photo: "/images/team/Shivansh.jpg"
+  - name: "Annapureddy Sai Ramyasri"
+    photo: "/images/team/Annapureddy Sai Ramyasri.jpg"
+  - name: "Anoop K"
+    photo: "/images/team/Anoop K.jpg"
+  - name: "Ashok"
+    photo: "/images/team/Ashok.png"
+  - name: "Bhavanisankar G S"
+    photo: "/images/team/Bhavanisankar G S.webp"
+  - name: "Byla Sanjith"
+    photo: "/images/team/Byla Sanjith.jpg"
+  - name: "Devi Amrutha"
+    photo: "/images/team/Devi Amrutha.jpg"
+  - name: "John Bobby"
+    photo: "/images/team/John Bobby.jpg"
+  - name: "K.Akhil"
+    photo: "/images/team/K.Akhil.jpg"
+  - name: "Krishna Patil"
+    photo: "/images/team/Krishna Patil.jpg"
+  - name: "Lakshitha Totakura"
+    photo: "/images/team/Lakshitha Totakura.jpg"
+  - name: "Nithin Surya S"
+    photo: "/images/team/Nithin Surya S.png"
+  - name: "Pilli Sri Naga Madhukar"
+    photo: "/images/team/Pilli Sri Naga Madhukar.jpg"
+  - name: "Priyanshu"
+    photo: "/images/team/Priyanshu.jpg"
+  - name: "Rishikesh"
+    photo: "/images/team/Rishikesh.jpg"
+  - name: "Ritam Basu"
+    photo: "/images/team/Ritam Basu.jpeg"
+  - name: "Riva Mohta"
+    photo: "/images/team/Riva Mohta.jpg"
+  - name: "Sarthak Kumar Mishra"
+    photo: "/images/team/Sarthak Kumar Mishra.png"
+  - name: "Sidharth V"
+    photo: "/images/team/Sidharth V.jpg"
+  - name: "Y. Harsha Vardhan Reddy"
+    photo: "/images/team/Y. Harsha Vardhan Reddy.jpg"
+  - name: "J.KEDARANANDA"
+    photo: "/images/team/J.KEDARANANDA.webp"
+  - name: "Soham Prabhakar More"
+    photo: "/images/team/Soham Prabhakar More.png"
+  - name: "Mihir Divyansh"
+    photo: "/images/team/Mihir Divyansh.png"
     
 
 menu:
