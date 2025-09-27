@@ -1,5 +1,6 @@
 ---
 title: "Getting started with Raspberry Pi"
+slug: "blog-post-1"
 draft: false
 language: en
 featured_image: ../assets/images/posts/blog-1.webp
