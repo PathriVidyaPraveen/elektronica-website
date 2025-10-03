@@ -112,31 +112,31 @@ params:
 
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 20
     - identifier: team
       name: Team
       url: /team/
       weight: 30
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 50
+    # - identifier: contact
+    #   name: Contact
+    #   url: /contact/
+    #   weight: 50
   footer:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 10
     - identifier: team
       name: Team
       url: /team/
       weight: 30
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 50
+    # - identifier: contact
+    #   name: Contact
+    #   url: /contact/
+    #   weight: 50
 
 taxonomies:
   category: Categories
